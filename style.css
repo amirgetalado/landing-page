@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif, Arial;
+    color: white;
+    margin:0;
+    height: auto;
+    width: 100%;
+    flex-flow: column nowrap;
+    font-size: 18px;
+    /* justify-content: center; */
+}
+
+
+/* header goes here */
+.header{
+    background: #1F2937;
+    display: flex;
+    padding: 2% 10%;
+    align-items: center;
+    height: 10%;
+    flex:1;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    flex:1;
+}
+.nav{
+    flex:1;
+}
+
+/* remove list and link decoration */
+ul{
+    list-style-type:none;
+    padding: 0;
+    margin:0;
+    display:flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+
+/* hero container */
+
+.hero-container{
+    flex: 2;
+    display:flex;
+    flex-flow: row wrap;
+    background:#1F2937;
+    gap: 20px;
+    padding: 2% 10%;
+    font-size: 20px;
+}
+.hero-title{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.hero-content,
+.image-holder{
+    flex:1;
+}
+.hero-content{
+    margin-top: 15px;
+}
+.image-holder{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.image-holder > img{
+    height: 250px;
+    width: 350px;
+    border-radius: 6px;
+}
+
+button{
+    border-radius:6px;
+    padding: 5px 2rem;
+    background: #3882F6;
+    color:white;
+}
+
+/* gallery */
+.gallery-container{
+    flex:2;
+    background:white;
+    color: #1F2937;
+    text-align: center;
+    display:flex;
+    flex-flow: column nowrap;
+    padding: 3% 4% 0% 4%;
+}
+
+.gallery-title{
+    font-size: 36px;
+    font-weight:bolder;
+}
+.gallery-image-container{
+    display:flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    flex:1;
+    margin: 2% 5%;
+    padding: 30px;
+}
+
+.gallery-image-holder{
+    flex:1;
+}
+
+.gallery-image{
+    height:100px; 
+    width:100px;
+    border-radius: 6px;
+    border:3px solid #3882F6; 
+}
+
+/* quote container */
+.quote-container{
+    flex:2;
+    background: #E5E7EB;
+    color: #1F2937;
+    padding: 4% 18%;
+}
+.quote{
+    font-size:36px;
+    font-style: italic;
+}
+
+.author{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* cta container */
+.cta-container{
+    flex:2;
+    padding: 3% 12%;
+    display:flex;
+    justify-content:center;
+}
+
+.cta-box{
+    background:#3882F6;
+    padding: 1% 5%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row wrap;
+    gap: 1rem;
+}
+
+.cta {
+    flex: 2;
+    padding-right: 10px;
+}
+
+.button-holder{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex:1;
+}
+
+.button-holder > button{
+    border: 2px solid white;
+}
+
+
+
+/* footer */
+.footer{
+    background:#1F2937;
+    display: flex;
+    justify-content: center;
+    flex:1;
+    font-size: 14px;
+    padding: 1% 7%;
+}
